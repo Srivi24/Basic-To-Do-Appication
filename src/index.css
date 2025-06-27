@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: aliceblue;
+  font-size: 18px;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  max-width: 500px;
+  border: 1px solid rgb(245, 209, 162);
+  margin: auto;
+}
+
+header {
+  width: 100%;
+  /* padding: 0 .25em; */
+  background-color:rgb(255, 185, 94);
+  color: aliceblue;
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  /* padding: 0 .25rem; */
+  background-color: rgb(255, 185, 94);
+  color: aliceblue;
+  text-align: center;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+}
+
+main ul {
+  list-style: none;
+}
+
+main .item #edit {
+  outline: none;
+  color: rgb(79, 165, 105);
+}
+
+main .item #delete {
+  outline: none;
+  color: purple;
+}
+
+main .item #delete:hover {
+  color: red;
+}
